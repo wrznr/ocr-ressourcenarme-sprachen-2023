@@ -1,2 +1,2 @@
-# slide-template
-Template for [`remarkjs`](https://remarkjs.com/)-based slides deployed via GitHub Pages
+# OCR für ressourcenarme Sprachen 2023
+Slides and materials for the OCR talk at workshop “KI für kleinere Sprachen”
