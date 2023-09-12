@@ -77,8 +77,8 @@ class: part-slide
 * Anfang 1992 gegründete außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
 * hervorgegangen aus dem 1951–1991 bestehenden Institut für sorbische Volksforschung in der DDR  (sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
 * zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen Kulturwissenschaften und Sprachwissenschaft 
-* öffentlichkeit wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter.
-* „Lětopis“ als interdisziplinäres Fachorgan,  zwei spezifische Schriftenreihen sowie digitale Angebote.
+* öffentliche wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter (Sorbische Zentralbibliothek und Sorbisches Kulturarchiv)
+* „Lětopis“ als interdisziplinäres Fachorgan,  zwei spezifische Schriftenreihen sowie digitale Angebote
 * mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
 ---
 
