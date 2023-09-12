@@ -24,7 +24,7 @@ layout: true
     </tr>
     <tr>
       <td style="text-align:left">Sorbisches Institut Bautzen</td>
-      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</td>
+      <td style="text-align:right">SLUB Dresden</td>
     </tr>
     <tr>
       <td style="font-size:8pt"><b>14.September 2023</b></td>
@@ -502,7 +502,7 @@ count: false
 
 ---
 
-# Texterkennung: Sequenzklassifikation
+# Texterkennung: Zeilenorientierte Ansätze
 
 - zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
 - basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
@@ -514,6 +514,38 @@ count: false
         * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
     + induziere ein **statistisches Modell**,
     + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
+
+---
+
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Übertragung auf OCR
+    + Daten
+        * https://htr-united.github.io/
+        * manuell transkribierte Textzeilen
+    + Kodierung `\(f: \mathbb{N}^{10}\rightarrow\mathbb{B}\)` 
+      $$
+      f(x[n]) = \begin{cases} 1 & \text{Pixel in Zelle $(x,n)$ schwarz} \\\\
+      0 & \, \text{sonst}\end{cases}
+      $$ 
+    + Training
+        * Zählen von Sequenzen aus Vektor-Buchstabenteil-Paaren
+        * Repräsentation als OCR-Modell
+        * Tesseract: [tesstrain](https://github.com/tesseract-ocr/tesstrain)
+.cols[
+.fifty[
+```
+  0123456789
+0 1111111111
+2 0000110000 
+```
+]
+.fifty[
+<center>
+<img src="img/hi.png" style="width:150px"/>
+</center>
+]
+]
 
 ---
 
