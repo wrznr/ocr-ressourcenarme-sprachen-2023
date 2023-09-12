@@ -20,11 +20,11 @@ layout: true
   <table>
     <tr>
       <td style="text-align:left"><b>Wito Böhmak</b></td>
-      <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
+      <td style="text-align:right"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
       <td style="text-align:left">Sorbisches Institut Bautzen</td>
-      <td style="text-align:left">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</td>
+      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</td>
     </tr>
     <tr>
       <td style="font-size:8pt"><b>14.September 2023</b></td>
