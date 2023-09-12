@@ -5,12 +5,12 @@ layout: true
 <div class="my-footer">
   <table>
     <tr>
-      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>Date</td>
+      <td style="text-align:right">Sorbisches Institut Bautzen</td>
+      <td>14.09.2023</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat 2.5</td>
+      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
       <td />
     </tr>
   </table>
@@ -19,16 +19,18 @@ layout: true
 <div class="my-title-footer">
   <table>
     <tr>
+      <td style="text-align:left"><b>Wito Böhmak</b></td>
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat 2.5</td>
+      <td style="text-align:left">Sorbisches Institut Bautzen</td>
+      <td style="text-align:left">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>Date</b></td>
+      <td style="font-size:8pt"><b>14.September 2023</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Event</td>
+      <td style="font-size:8pt">Workshop „KI für kleinere Sprachen“</td>
     </tr>
   </table>
 </div>
@@ -38,8 +40,8 @@ layout: true
 class: title-slide
 count: false
 
-# Title
-## Subtitle
+# Automatische Texterkennung für ressourcenarme Sprachen
+## am Beispiel des Obersorbischen
 
 ---
 
