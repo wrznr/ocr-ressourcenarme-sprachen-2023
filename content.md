@@ -7,6 +7,7 @@ layout: true
     <tr>
       <td style="text-align:right">Sorbisches Institut Bautzen</td>
       <td>14.09.2023</td>
+      <td />
     </tr>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
