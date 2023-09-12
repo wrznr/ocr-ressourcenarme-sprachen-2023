@@ -84,9 +84,9 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .my-footer tbody tr:nth-child(even) { background:transparent }
 
 .title-slide .my-header {
-  background-image: url("img/slub_logo.svg");
-  background-repeat: no-repeat;
-  background-position: 10px 10px;
+  background-image: url("img/slub_logo.svg"), url("img/si_logo.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10px 10px, right top;
   background-size: 20%;
   position: fixed;
   top: 0px;
