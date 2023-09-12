@@ -45,18 +45,20 @@ count: false
 
 ---
 
-# Overview
+# Überblick
 
-- Section 1
-  + Subsection 1
-- Section 2
+- Einordnung und Hintergründe zum Obersorbischen
+- Maschinelles Lernen am Beispiel der automatischen Texterkennung
+- Training von OCR-Modellen
+- Methoden der ML-gestützen Layouterkennung
+- prototypische Workflows mit Werkzeugen aus OCR-D
 
 ---
 
 class: part-slide
 count: false
 
-# Topic 1
+# Einordnung und Hintergründe zum Obersorbischen
 
 ---
 
