@@ -73,6 +73,15 @@ https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/
 
 class: part-slide
 
+# Sorbisches Institut
+* Anfang 1992 gegründete außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
+* hervorgegangen aus dem 1951–1991 bestehenden Institut für sorbische Volksforschung in der DDR  (sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
+* zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen Kulturwissenschaften und Sprachwissenschaft 
+* öffentlichkeit wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter.
+* „Lětopis“ als interdisziplinäres Fachorgan,  zwei spezifische Schriftenreihen sowie digitale Angebote.
+* mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
+---
+
 # Many thanks for your attention!
 
 <center>
