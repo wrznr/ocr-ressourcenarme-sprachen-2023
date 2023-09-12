@@ -59,7 +59,16 @@ class: part-slide
 count: false
 
 # Einordnung und Hintergründe zum Obersorbischen
-
+Obersorbisch - hornjoserbšćina
+https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/
+* westslawische Sprache, verschiedene Dialekte, bildet gemeinsam mit dem Niedersorbischen das Sorbische.
+* von etwa 20000–25000 Menschen in der Oberlausitz gesprochen, Gegend zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
+* im Deutschen bis 1945 überwiegend Wendisch genannt.
+* Die obersorbische Schriftsprache der Gegenwart entwickelte sich aus der Vereinheitlichung zweier Traditionslinien: katholischen und evangelischen Schrifttum
+* erste gedruckte obersorbische Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
+* zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten herausgebildet
+* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache ( sog. analogen Rechtschreibung, in Antiqua)
+* nach 1945 Schaffung eines einheitlichen orthografischen Systems
 ---
 
 class: part-slide
