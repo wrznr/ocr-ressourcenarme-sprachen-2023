@@ -40,7 +40,7 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 
 .remark-code-line { line-height:1.3em }
 
-.remark-slide-number { bottom:15px; right:70px; font-size:8pt }
+.remark-slide-number { bottom:18px; right:302px; font-size:8pt; text-color:#fff }
 
 .title-slide h1 { text-align:left; margin-top:180px; font-family: 'Open Sans', sans-serif }
 .title-slide h2 { font-size:2rem; color:#006ab2; text-align:left; margin-top:30px; font-family: 'Open Sans', sans-serif }
@@ -61,8 +61,8 @@ ul > li > ol > li > ul > li { font-size:1.1rem }
 .my-footer {
   background-image: url("img/slub_logo_wo.svg"), url("img/si_logo_wo.png");
   background-repeat: no-repeat;
-  background-position: 0px 10px;
-  background-size: 10%;
+  background-position: 0px 10px, 775px 3px;
+  background-size: 10%, 5%;
   border-top: 1px solid #222;
   position: absolute;
   bottom: 0px;
