@@ -59,6 +59,10 @@ class: part-slide
 count: false
 
 # Einordnung und Hintergründe zum Obersorbischen
+
+---
+
+# Einordnung und Hintergründe zum Obersorbischen
 Obersorbisch - hornjoserbšćina
 https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/
 * westslawische Sprache, verschiedene Dialekte, bildet gemeinsam mit dem Niedersorbischen das Sorbische.
@@ -70,8 +74,6 @@ https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/
 * seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache ( sog. analogen Rechtschreibung, in Antiqua)
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
 ---
-
-class: part-slide
 
 # Sorbisches Institut
 * Anfang 1992 gegründete außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
@@ -230,6 +232,288 @@ außerdem: 2. Kasten vor dem 1. Kasten
 
 
 <!-- Ende WB -->
+
+---
+
+class: part-slide
+count: false
+
+# Maschinelles Lernen am Beispiel der automatischen Texterkennung
+
+---
+
+# Kurze Einführung OCR
+
+.cols[
+.sixty[
+- Bilderfassung ≠ Texterfassung
+- **O**ptical **C**haracter **R**ecognition: Automatische Erfassung von Text in Bildern
+- ursprünglich begrenzt auf Zeichenerkennung
+- heute häufig Synonym für den gesamten Texterfassungsprozess
+  + Bildvorverarbeitung
+  + Layoutanalyse (OLR)
+  + Zeilenerkennung
+  + ...
+]
+.fourty[
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" /></center>
+]
+]
+
+---
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_raw.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_opt.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_opt.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
+- Texterkennung
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_text.svg" />
+</p>
+]
+]
+
+---
+
+# Texterkennung: Zeichenorientierte Ansätze
+
+.cols[
+.seventy[
+- Erkennung erfolgt *glyphenweise*
+  - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+]
+.fourty[
+<center><img src="img/char.svg" width="300px" /></center>
+]
+]
+
+---
+
+count: false
+
+# Texterkennung: Zeichenorientierte Ansätze
+
+.cols[
+.seventy[
+- Erkennung erfolgt *glyphenweise*
+  - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+]
+.fourty[
+<center><img src="img/char.svg" width="300px" /></center>
+]
+]
+- *regelbasiertes Vorgehen*
+    + **direkte** Abbildung von Referenzmaterial
+    + Modellierung von Expertenwissen
+- Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
+
+---
+
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Erkennung erfolgt *zeilenweise*
+  1. **Skalierung:** einheitliche Höhe für alle Zeilen
+  2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
+<center><img src="img/grid.svg" width="800px"/></center>
+- kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
+- Zerlegung der Seite in *Zeilen* notwendig
+- Vorgehen robuster gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
+- `Tesseract` (ab Version 4), `OCRopus`, `kraken`, `Calamari`
+  + Einsatz *neuronaler Netze* für die Sequenzklassifikation
+
+---
+
+# Texterkennung: Sequenzklassifikation
+
+- zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
+- basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
+- Rezept
+    + Man nehme
+        * eine **sehr große** Liste **manuell annotierter** Daten und
+        * einen **Trainingsalgorithmus**,
+    + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
+        * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+    + induziere ein **statistisches Modell**,
+    + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
 
 ---
 
