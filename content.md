@@ -68,12 +68,13 @@ count: false
 - westslawische Sprache
     * Sorbisch = Niedersorbisch und Obersorbisch
     * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
-    * Gegend zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
+    * zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
     * im Deutschen bis 1945 *Wendisch* benannt
 - obersorbische Schriftsprache der Gegenwart ← Vereinheitlichung zweier Traditionslinien
     * katholisches und evangelisches Schrifttum
 ]
 .fourty[
+<p style="margin-top:-30px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Sorbisches_Siedlungsgebiet.png" />
 </p>
 ]
@@ -91,6 +92,7 @@ count: false
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
 ]
 .fourty[
+<p style="margin-top:-30px">
 <img src="https://digital.slub-dresden.de/data/kitodo/LuthDer_1737590336/LuthDer_1737590336_tif/jpegs/00000032.tif.original.jpg" />
 </p>
 ]
