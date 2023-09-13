@@ -6,13 +6,11 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Böhmak</td>
-      <td>Sorbisches Institut Bautzen</td>
-      <td>14.09.23<td/>
+      <td style="text-align:left">Sorbisches Institut Bautzen</td>
     </tr>
     <tr>
       <td style="text-align:right">Würzner</td>
-      <td>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td />
+      <td style="text-align:left">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
     </tr>
   </table>
 </div>
@@ -48,7 +46,7 @@ count: false
 
 # Überblick
 
-- Einordnung und Hintergründe zum Obersorbischen
+- Hintergründe zum Obersorbischen
 - Maschinelles Lernen am Beispiel der automatischen Texterkennung
 - Training von OCR-Modellen
 - Methoden der ML-gestützen Layouterkennung
@@ -59,11 +57,11 @@ count: false
 class: part-slide
 count: false
 
-# Einordnung und Hintergründe zum Obersorbischen
+# Hintergründe zum Obersorbischen
 
 ---
 
-# Einordnung und Hintergründe zum Obersorbischen
+# Hintergründe zum Obersorbischen
 [Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
 - westslawische Sprache, verschiedene Dialekte
     * Sorbisch = Niedersorbisch und Obersorbisch
@@ -75,13 +73,13 @@ count: false
 
 ---
 
-# Einordnung und Hintergründe zum Obersorbischen
+# Hintergründe zum Obersorbischen
 
 .cols[
 .fifty[
 * erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
-* zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten herausgebildet
-* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache (sog. analogen Rechtschreibung, in Antiqua)
+* zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten
+* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (sog. analogen Rechtschreibung, in Antiqua)
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
 ]
 .fourty[
@@ -101,12 +99,18 @@ count: false
     * sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
 - zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen
     * Kulturwissenschaften und Sprachwissenschaft 
+
+---
+
+# Sorbisches Institut
+
 - öffentliche wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter (Sorbische Zentralbibliothek und Sorbisches Kulturarchiv)
 - „Lětopis“ als interdisziplinäres Fachorgan
     * zwei spezifische Schriftenreihen sowie digitale Angebote
 - mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
 
 ---
+
 ## Wissenschaftlich nachnutzbare Volltexte
  
 <!-- Für wen? -->
