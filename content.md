@@ -537,14 +537,174 @@ count: false
 # Texterkennung: Trainingsdaten
 
 - Lücken in Transkriptionsrichtlinien  
-  z.B. **"** vs. **“** oder **—** vs. **–** oder **⸗** vs. **-** <!-- Zeichensetzung, auch Leerzeichen! -->
+    * z.B. `"` vs. `“` oder `—` vs. `–` oder `⸗` vs. `-`
 - zu wenige Beispiele für große Fonts und für spezifische Zeichen
-- Wandel historischer Schreibweisen  
-  z.B. am Übergang von Überpunkt zu Akut – Erkennung ob 
-    - "Druckschwäche": 
-      ![](https://i.imgur.com/I1lloVk.png =500x)
-    - "gewollt" oder "beschränkter Drucksatz":
-  ![](https://i.imgur.com/uH5DbMC.png =300x) ![](https://i.imgur.com/1Y3o6Ig.png =300x)
+- Wandel historischer Schreibweisen
+    * z.B. am Übergang von Überpunkt zu Akut; Druckschwäche? 
+      ![](https://i.imgur.com/I1lloVk.png =400x)
+    * Absicht?
+      ![](https://i.imgur.com/uH5DbMC.png =200x)
+    * beschränkter Drucksatz?
+      ![](https://i.imgur.com/1Y3o6Ig.png =200x)
+
+---
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/unzonned.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/unzonned.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/zonned.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+    + Illustration durch Farbe pro Segmenttyp
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/zonned.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+    + Illustration durch Farbe pro Segmenttyp
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+    + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer **Umgebung** (i.e. Farbe im Original)
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+    + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
+    + beliebig komplexe Schemata möglich
+        * Text vs. Nichttext
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/sem_sep.png" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# *Layoutanalyse* per Pixelklassifizierung
+
+.cols[
+.fifty[
+- Training auf manuell strukturierten Seiten
+- jedes Pixel gehört in ein Segment
+- jedes Pixel gehört zu einer Klasse
+  + Illustration durch Farbe pro Segmenttyp
+- Klassifikation der Pixel anhand ihrer Umgebung (i.e. Farbe im Original)
+  + beliebig komplexe Schemata möglich
+      * Text vs. Nichttext
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/text_sep.png" height="500px" />
+</p>
+]
+]
 
 ---
 
