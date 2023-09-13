@@ -713,6 +713,8 @@ Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbs
 
 ---
 ##Volltext-Generierung bei Tageszeitung Nowa Doba (1947-1990) 
+<div class="col-container">
+    <div class="col80">
 Nowa Doba
 Workflow
 ![](https://hackmd.io/_uploads/S1J-bWky6.jpg)
@@ -730,6 +732,10 @@ Automatische Überführung in TEI 1
 ![](https://hackmd.io/_uploads/HknPx-y16.jpg)
 Manuelle Annotation nach TEI 2
 ![](https://hackmd.io/_uploads/S1Lv7-y16.jpg)
+     
+    </div>
+</div>
+
 
 ---
 ## Fragen?
