@@ -72,7 +72,7 @@ count: false
     * im Deutschen bis 1945 *Wendisch* benannt
 ]
 .fourty[
-<p style="margin-top:-30px">
+<p style="margin-top:-20px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Sorbisches_Siedlungsgebiet.png" />
 </p>
 ]
@@ -141,16 +141,37 @@ count: false
 
 ---
 
+# Sorbische Druckzeichen Antiqua/Fraktur
+![](https://i.imgur.com/wcWyYml.jpg =700x)
+
+*Jan Arnošt Smoler: Mały Sserb aby Serske a Njemske Rosmłowenja atd. = Wendisch-Deutsche Gespräche nebst einem wendisch-deutschen und deutsch-wendischen Wörterbuche, sowie einem Verzeichnisse von Ortsnamen, einer Darlegung der Aussprache und Orthographie und Zugabe der gebräuchlichen Eidesnormen, Bautzen 1841*
+<!-- .element: style="font-size: 20px" -->
+
+---
+
+# Wo noch? – Fraktur und Antiqua Tschechisch
+![](https://i.imgur.com/wpZz2ky.png)
+
+*Alphabete orientalischer und occidentalischer Sprachen,  
+zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
+<!-- .element: style="font-size: 20px" -->
+
+---
+
 # Wissenschaftlich nachnutzbare Volltexte
  
 <!-- Für wen? -->
 
 
-- strukturierter Volltext mit digitaler Präsentation
-    - u.a. für Wissenschaftler, Heimatforscher, Journalisten, breiten Bildungsbereich
-    - u.a. für Search/Retrieval, Textkorpora, hist. Wörterbücher
-- Belieferung mit Forschungsdatenrepos (Ground-Truth)  
-  und Sprachressourcen (Modelle)
+- aus den Quellen erzeugter, **strukturierter Volltext**
+    * adäquate digitale Repräsentation des Drucks
+    * Wörter, Sätze, Abschnitte, Artikel, Kapitel etc.
+- Bespielung von Präsentationssystemen
+    - qualitative Nutzung
+    - u.a. für Editionen, Heimatforschung, breiten Bildungsbereich
+- Belieferung von Forschungsdateninfrastrukturen
+    - quantitative Nutzung
+    - u.a. für Search/Retrieval, Textkorpora, Sprachstatistik
 
 <!-- GT: manuell erfasster Text (idealerweise fehlerfrei), mit -Text-Zuordnung -->
 <!-- Minderheitensprache/ressourcenknappe Sprache -->
@@ -158,7 +179,7 @@ count: false
 
 ---
 
-## Ein Beispiel: Serbske Nowiny 23.3.1878 <br/>(überwiegend Fraktur)
+# Ein Beispiel: Serbske Nowiny 23.3.1878 <br/>(überwiegend Fraktur)
 
 <table>
    <tr>
@@ -185,95 +206,6 @@ najſtarſche žaby pomnicź njemóža, a ſo drje ßu ſchkórzy hwiſdali,
 ale to najſkerje teho dla, ſo bychu ßo trochu ſhrěli...
 </p>
 ```
-
----
-
-## Sorbische Druckzeichen Antiqua/Fraktur
-![](https://i.imgur.com/wcWyYml.jpg =700x)
-
-*Jan Arnošt Smoler: Mały Sserb aby Serske a Njemske Rosmłowenja atd. = Wendisch-Deutsche Gespräche nebst einem wendisch-deutschen und deutsch-wendischen Wörterbuche, sowie einem Verzeichnisse von Ortsnamen, einer Darlegung der Aussprache und Orthographie und Zugabe der gebräuchlichen Eidesnormen, Bautzen 1841*
-<!-- .element: style="font-size: 20px" -->
-
----
-
-## Wo noch? – Fraktur und Antiqua Tschechisch
-![](https://i.imgur.com/wpZz2ky.png)
-
-*Alphabete orientalischer und occidentalischer Sprachen,  
-zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
-<!-- .element: style="font-size: 20px" -->
-
----
-
-## Erste Studie zu Ground-Truth / Trainingsmodell in 2019
-
-OCR für ressourcenarme Sprachen am Beispiel des Obersorbischen  
-(Kay-Michael Würzner & Wito Böhmak, Abstract zum Dt. Bibtag 2020 + DFG-Antrag):
-
-- Bericht über manuelle (und iterative) Erstellung von **GT** für Fraktur-Obersorbisch und **Training** eines Tesseract-Modells per Finetuning von `Fraktur`
-- Untersuchung mit ABBYY Recognition Server und Tesseract auf ihre  
-  **Eignung** für die Erzeugung wissenschaftlich nachnutzbarer Volltexte
-- sowohl ABBYY Recognition Server mit dem Modell `Altdeutsch/Gothic`  
-  als auch Tesseract mit dem sprachunabhängigen Modell `Fraktur`  
-  erzielten **schlechte** Genauigkeit
-- Erstellung von GT und eigenem Trainingsmodell `hsb_frak` mit einfachem Workflow: **Machbarkeit**
-
-
-| | ABBYY | Tesseract | Tesseract (nachtrainiert) |
-| --- | --- | --- | --- |
-| Zeichenfehlerrate: | 12-17% | 8-11% | 0,5-3,7% |
-
-
-<!-- also: "Lösungsansatz" -->
-
----
-
-## Entwicklung seit 2020
-
-<!-- oder "Fortschritt"? -->
-
-**Verstetigung** in anderen Projektkontexten
-
-<!-- Verstetigung der Projektidee durch andere Förderinstrumente -->
-
-- SI: Retrodigitalisierung und Präsentation auf Basis von Kitodo
-- SLUB: Beteiligung bei…
-   + Entwicklung [Kitodo](https://www.kitodo.org/) und [DFG-Viewer](http://dfg-viewer.de/)
-   + DFG-Förderinitiative [OCR-D](https://ocr-d.de)
-   + DDB [Zeitungsportal](https://pro.deutsche-digitale-bibliothek.de/deutsches-zeitungsportal)
-
-<!-- Machbarkeit im Gesamtsystem -->
-
-**Einsetzbarkeit** im produktiven Betrieb mit komplexem Workflow
-<!-- Reading Order zu Blockreihenfolge, Images zu Scans, LogicStruc = Struktur (manu oder auto), DFG-Viewer zu KITODO.PRES / DFG-Viewer, OCRD zu OCR-D, PROZESSOR zu docstruct, PAGEXML zu PAGE, TEI-XML zu TEI -->
-
-![](https://i.imgur.com/VyNdEKM.png)
-
----
-
-## Was macht eine hochqualitative Texterkennung aus?
-
-- *gute Segmentierung*: Ist der Text richtig lokalisiert worden?  
-  (kein Text verloren, kein Nicht-Text verwechselt)
-   + scheinbare/fehlende Wörter oder Zeilen
-   + überlappende/abgeschnittene Zeichen
-- *gute OCR*: Sind die Zeichen an sich richtig erkannt worden?
-- *gute Strukturerkennung*: Sind die Blöcke und Zeilen in der richtigen Reihenfolge? Wurden Überschriften markiert? Wurden Kapitel/Artikel separiert?
-- *weitere Analyse*: Schriftauszeichnung, Textnormalisierung
-
-
-<!-- → **OCR-Workflow** -->
-
-<!-- 2. Kasten zu "Zeilensegmentierung", 3. Kasten zu "Struktur + Reihenfolge", Artikelerkennung zu "Artikelseparierung" 
-
-außerdem: 2. Kasten vor dem 1. Kasten
-
--->
-
-![](https://i.imgur.com/6sjl9Yo.png)
-
-
-<!-- Ende WB -->
 
 ---
 
@@ -588,6 +520,78 @@ count: false
 </center>
 ]
 ]
+
+---
+
+## Erste Studie zu Ground-Truth / Trainingsmodell in 2019
+
+OCR für ressourcenarme Sprachen am Beispiel des Obersorbischen  
+(Kay-Michael Würzner & Wito Böhmak, Abstract zum Dt. Bibtag 2020 + DFG-Antrag):
+
+- Bericht über manuelle (und iterative) Erstellung von **GT** für Fraktur-Obersorbisch und **Training** eines Tesseract-Modells per Finetuning von `Fraktur`
+- Untersuchung mit ABBYY Recognition Server und Tesseract auf ihre  
+  **Eignung** für die Erzeugung wissenschaftlich nachnutzbarer Volltexte
+- sowohl ABBYY Recognition Server mit dem Modell `Altdeutsch/Gothic`  
+  als auch Tesseract mit dem sprachunabhängigen Modell `Fraktur`  
+  erzielten **schlechte** Genauigkeit
+- Erstellung von GT und eigenem Trainingsmodell `hsb_frak` mit einfachem Workflow: **Machbarkeit**
+
+
+| | ABBYY | Tesseract | Tesseract (nachtrainiert) |
+| --- | --- | --- | --- |
+| Zeichenfehlerrate: | 12-17% | 8-11% | 0,5-3,7% |
+
+
+<!-- also: "Lösungsansatz" -->
+
+---
+
+## Entwicklung seit 2020
+
+<!-- oder "Fortschritt"? -->
+
+**Verstetigung** in anderen Projektkontexten
+
+<!-- Verstetigung der Projektidee durch andere Förderinstrumente -->
+
+- SI: Retrodigitalisierung und Präsentation auf Basis von Kitodo
+- SLUB: Beteiligung bei…
+   + Entwicklung [Kitodo](https://www.kitodo.org/) und [DFG-Viewer](http://dfg-viewer.de/)
+   + DFG-Förderinitiative [OCR-D](https://ocr-d.de)
+   + DDB [Zeitungsportal](https://pro.deutsche-digitale-bibliothek.de/deutsches-zeitungsportal)
+
+<!-- Machbarkeit im Gesamtsystem -->
+
+**Einsetzbarkeit** im produktiven Betrieb mit komplexem Workflow
+<!-- Reading Order zu Blockreihenfolge, Images zu Scans, LogicStruc = Struktur (manu oder auto), DFG-Viewer zu KITODO.PRES / DFG-Viewer, OCRD zu OCR-D, PROZESSOR zu docstruct, PAGEXML zu PAGE, TEI-XML zu TEI -->
+
+![](https://i.imgur.com/VyNdEKM.png)
+
+---
+
+## Was macht eine hochqualitative Texterkennung aus?
+
+- *gute Segmentierung*: Ist der Text richtig lokalisiert worden?  
+  (kein Text verloren, kein Nicht-Text verwechselt)
+   + scheinbare/fehlende Wörter oder Zeilen
+   + überlappende/abgeschnittene Zeichen
+- *gute OCR*: Sind die Zeichen an sich richtig erkannt worden?
+- *gute Strukturerkennung*: Sind die Blöcke und Zeilen in der richtigen Reihenfolge? Wurden Überschriften markiert? Wurden Kapitel/Artikel separiert?
+- *weitere Analyse*: Schriftauszeichnung, Textnormalisierung
+
+
+<!-- → **OCR-Workflow** -->
+
+<!-- 2. Kasten zu "Zeilensegmentierung", 3. Kasten zu "Struktur + Reihenfolge", Artikelerkennung zu "Artikelseparierung" 
+
+außerdem: 2. Kasten vor dem 1. Kasten
+
+-->
+
+![](https://i.imgur.com/6sjl9Yo.png)
+
+
+<!-- Ende WB -->
 
 ---
 
