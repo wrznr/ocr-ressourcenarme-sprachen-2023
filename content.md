@@ -6,12 +6,12 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Böhmak</td>
-      <td style="text-align:right">Sorbisches Institut Bautzen</td>
+      <td>Sorbisches Institut Bautzen</td>
       <td>14.09.23<td/>
     </tr>
     <tr>
       <td style="text-align:right">Würzner</td>
-      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
+      <td>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
       <td />
     </tr>
   </table>
