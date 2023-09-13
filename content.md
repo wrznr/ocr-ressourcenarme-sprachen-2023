@@ -523,6 +523,31 @@ count: false
 
 ---
 
+# Texterkennung: Trainingsdaten
+
+- fehlerfreies Referenzmaterial, sog. **Ground Truth**
+    + Mapping von Zeilen-Bildern auf maschinenlesbaren codierten Text
+    + entsprechend Konventionen (z.B. OCR-D-Richtlinien)
+    + direkter Zusammenhang von Konventionen und Texterkennung
+    + manuelle Erstellung (von Null oder aufbauend auf bereits erzeugtem Text, ggf. iterativ)
+- aus Daten werden sog. **Modelle** erzeugt
+
+---
+
+# Texterkennung: Trainingsdaten
+
+- Lücken in Transkriptionsrichtlinien  
+  z.B. **"** vs. **“** oder **—** vs. **–** oder **⸗** vs. **-** <!-- Zeichensetzung, auch Leerzeichen! -->
+- zu wenige Beispiele für große Fonts und für spezifische Zeichen
+- Wandel historischer Schreibweisen  
+  z.B. am Übergang von Überpunkt zu Akut – Erkennung ob 
+    - "Druckschwäche": 
+      ![](https://i.imgur.com/I1lloVk.png =500x)
+    - "gewollt" oder "beschränkter Drucksatz":
+  ![](https://i.imgur.com/uH5DbMC.png =300x) ![](https://i.imgur.com/1Y3o6Ig.png =300x)
+
+---
+
 ## Erste Studie zu Ground-Truth / Trainingsmodell in 2019
 
 OCR für ressourcenarme Sprachen am Beispiel des Obersorbischen  
@@ -676,20 +701,6 @@ AS: Artikelseparierung (Strukturerkennung)
 
 <!-- eventuell zweite Folie nur für Antiqua! -->
 <!-- Ende RS-->
-
----
-
-## Herausforderungen bei GT-Erstellung
-
-- Lücken in Transkriptionsrichtlinien  
-  z.B. **"** vs. **“** oder **—** vs. **–** oder **⸗** vs. **-** <!-- Zeichensetzung, auch Leerzeichen! -->
-- zu wenige Beispiele für große Fonts und für spezifische Zeichen
-- Wandel historischer Schreibweisen  
-  z.B. am Übergang von Überpunkt zu Akut – Erkennung ob 
-    - "Druckschwäche": 
-      ![](https://i.imgur.com/I1lloVk.png =500x)
-    - "gewollt" oder "beschränkter Drucksatz":
-  ![](https://i.imgur.com/uH5DbMC.png =300x) ![](https://i.imgur.com/1Y3o6Ig.png =300x)
 
 ---
 
