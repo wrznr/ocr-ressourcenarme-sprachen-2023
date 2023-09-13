@@ -5,12 +5,12 @@ layout: true
 <div class="my-footer">
   <table>
     <tr>
-      <tdstyle="text-align:right">Böhmak</td>
+      <td style="text-align:right">Böhmak</td>
       <td style="text-align:right">Sorbisches Institut Bautzen</td>
       <td>14.09.23<td/>
     </tr>
     <tr>
-      <tdstyle="text-align:right">Würzner</td>
+      <td style="text-align:right">Würzner</td>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
       <td />
     </tr>
