@@ -63,6 +63,8 @@ count: false
 
 # Hintergründe zum Obersorbischen
 [Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
+.cols[
+.fifty[
 - westslawische Sprache, verschiedene Dialekte
     * Sorbisch = Niedersorbisch und Obersorbisch
     * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
@@ -70,6 +72,13 @@ count: false
     * im Deutschen bis 1945 als *Wendisch* benannt
 - obersorbische Schriftsprache der Gegenwart ← Vereinheitlichung zweier Traditionslinien
     * katholisches und evangelisches Schrifttum
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Sorbisches_Siedlungsgebiet.png" />
+</p>
+]
+]
 
 ---
 
