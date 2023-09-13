@@ -712,7 +712,26 @@ Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbs
 </div>
 
 ---
+##Volltext-Generierung bei Tageszeitung Nowa Doba (1947-1990) 
+Nowa Doba
+Workflow
+![](https://hackmd.io/_uploads/S1J-bWky6.jpg)
+Automatische Segmentierung
+![](https://hackmd.io/_uploads/Hyzfb-kJp.jpg)
+Automatische Reihenfolge Erkennung
+![](https://hackmd.io/_uploads/SJ8yAg1yT.jpg)
+Manuelle Korrektur der Reihenfolge
+![](https://hackmd.io/_uploads/HkyxAekk6.jpg)
+OCR und Post-OCR
+![](https://hackmd.io/_uploads/H19l0ek1p.jpg)
+Wörterbuch-Abgleich bei (manuell)
+![](https://hackmd.io/_uploads/H1VveWy1p.jpg)
+Automatische Überführung in TEI 1
+![](https://hackmd.io/_uploads/HknPx-y16.jpg)
+Manuelle Annotation nach TEI 2
+![](https://hackmd.io/_uploads/S1Lv7-y16.jpg)
 
+---
 ## Fragen?
 
 Vielen Dank für Ihre Aufmerksamkeit!
