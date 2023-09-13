@@ -65,16 +65,15 @@ count: false
 [Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
 .cols[
 .fifty[
-- westslawische Sprache, verschiedene Dialekte
+- westslawische Sprache
     * Sorbisch = Niedersorbisch und Obersorbisch
     * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
     * Gegend zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
-    * im Deutschen bis 1945 als *Wendisch* benannt
+    * im Deutschen bis 1945 *Wendisch* benannt
 - obersorbische Schriftsprache der Gegenwart ← Vereinheitlichung zweier Traditionslinien
     * katholisches und evangelisches Schrifttum
 ]
 .fourty[
-<p style="margin-top:-80px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Sorbisches_Siedlungsgebiet.png" />
 </p>
 ]
@@ -88,11 +87,10 @@ count: false
 .fifty[
 * erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
 * zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten
-* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (sog. analogen Rechtschreibung, in Antiqua)
+* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (analoge Rechtschreibung, Antiqua)
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
 ]
 .fourty[
-<p style="margin-top:-80px">
 <img src="https://digital.slub-dresden.de/data/kitodo/LuthDer_1737590336/LuthDer_1737590336_tif/jpegs/00000032.tif.original.jpg" />
 </p>
 ]
@@ -102,12 +100,19 @@ count: false
 
 # Sorbisches Institut
 
+.cols[
+.fifty[
 - Gründung Anfang 1992
-- außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
+    * außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
     * Vorgänger: 1951–1991 Institut für sorbische Volksforschung in der DDR
     * sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
 - zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen
     * Kulturwissenschaften und Sprachwissenschaft 
+]
+.fourty[
+<img src="img/sihaus.jpg" />
+    ]
+    ]
 
 ---
 
