@@ -591,6 +591,18 @@ count: false
 
 ---
 
+Training eines KI Systems
+
+aus Daten werden sg. Modelle erzeugt
+die Daten sind der sg. Ground Truth Text
+GT: 
++ Mapping von Zeilen-Bildern Bildern auf maschinenlesbaren codierten Text
++ folgt Konventionen (siehe OCRD GT level)
++ diese Konventionen implizieren die spätere Texterkennung
++ manuelle Erzeugung (von Null oder aufbauend auf bereits erzeugtem TExt)
+
+
+---
 ## Maßnahmen zur Verbesserung der Textqualität für Obersorbisch
 
 | | OLR | OCR | AS | |
