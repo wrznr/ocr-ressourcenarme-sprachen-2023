@@ -70,8 +70,6 @@ count: false
     * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
     * zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
     * im Deutschen bis 1945 *Wendisch* benannt
-- obersorbische Schriftsprache der Gegenwart ← Vereinheitlichung zweier Traditionslinien
-    * katholisches und evangelisches Schrifttum
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -86,10 +84,12 @@ count: false
 
 .cols[
 .fifty[
-* erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
-* zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten
-* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (analoge Rechtschreibung, Antiqua)
-* nach 1945 Schaffung eines einheitlichen orthografischen Systems
+- obersorbische Schriftsprache der Gegenwart
+    * Vereinheitlichung zweier Traditionslinien
+    * katholisches und evangelisches Schrifttum
+- erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
+- zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten
+- seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (analoge Rechtschreibung, Antiqua)
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -107,7 +107,7 @@ count: false
 - Gründung Anfang 1992
     * außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
     * Vorgänger: 1951–1991 Institut für sorbische Volksforschung in der DDR
-    * sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
+    * sorbisches wissenschaftliche Institut in Tradition der *Maćica Serbska*
 - zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen
     * Kulturwissenschaften und Sprachwissenschaft 
 ]
@@ -127,7 +127,21 @@ count: false
 
 ---
 
-## Wissenschaftlich nachnutzbare Volltexte
+# Ausgangssituation
+
+- Digitalisierungen am SI seit 15 Jahren
+- Landesdigitalisierungsprogramm (LDP) Sachsen,  
+  koordiniert am Dresdner Digitalisierungszentrum der SLUB
+- 2016–2017 im Rahmen des LDP Digitalisierung historischen Schrifttums: 
+    + Antiqua – ungenügende Volltext-Qualität
+    + Fraktur – keine Volltext-Erzeugung
+- besonderes Problem **Fraktur Sorbisch**: 
+    - slawische Diakritika, bisher keine verlässliche automatische Texterkennung (OCR)
+    - mehrere Schreibweisen, Übergänge
+
+---
+
+# Wissenschaftlich nachnutzbare Volltexte
  
 <!-- Für wen? -->
 
@@ -171,22 +185,6 @@ najſtarſche žaby pomnicź njemóža, a ſo drje ßu ſchkórzy hwiſdali,
 ale to najſkerje teho dla, ſo bychu ßo trochu ſhrěli...
 </p>
 ```
-
----
-
-## Ausgangssituation
-
-- Digitalisierungen am SI seit 15 Jahren
-- Landesdigitalisierungsprogramm (LDP) Sachsen,  
-  koordiniert am Dresdner Digitalisierungszentrum der SLUB
-- 2016-2017 im Rahmen des LDP Digitalisierung historischen Schrifttums: 
-    + Antiqua – ungenügende Volltext-Qualität
-    + Fraktur – keine Volltext-Erzeugung
-- besonderes Problem **Fraktur Sorbisch**: 
-    - slawische Diakritika, bisher keine verlässliche automatische Texterkennung (OCR)
-    - mehrere Schreibweisen, Übergänge
-
-<!-- oder: bisher ohne spezifisches OCR-Modell? / ohne Sprachunterstützung? -->
 
 ---
 
