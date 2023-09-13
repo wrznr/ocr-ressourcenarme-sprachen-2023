@@ -48,9 +48,8 @@ count: false
 
 - Hintergründe zum Obersorbischen
 - Maschinelles Lernen am Beispiel der automatischen Texterkennung
-- Training von OCR-Modellen
-- Methoden der ML-gestützen Layouterkennung
-- prototypische Workflows mit Werkzeugen aus OCR-D
+- Produktiver Workflow mit Werkzeugen aus OCR-D
+- Diskussionsimpulse
 
 ---
 
@@ -702,6 +701,91 @@ count: false
 .fourty[
 <p style="margin-top:-30px">
 <img src="img/text_sep.png" height="500px" />
+</p>
+]
+]
+
+---
+
+class: part-slide
+count: false
+
+# Produktiver Workflow mit Werkzeugen aus OCR-D
+
+---
+
+# Produktiver Workflow mit Werkzeugen aus OCR-D
+
+1. Erstellung Bilddigitalisate
+2. Layoutanalyse mit `Eynollah`
+3. ggf. manuelle Korrektur (Regionen und Textfluss)
+4. Texterkennung mit `Tesseract` und `Calamari`
+5. ggf. semiautomatische Textkorrektur
+6. Konvertierung in Basis-TEI mit `mm2tei`
+7. ggf. manuelle Korrekturen (insb. Worttrennung)
+8. tiefergehende TEI-Auszeichnung (log. Struktur)
+
+---
+
+# Erstellung Bilddigitalisate
+
+---
+
+# Layoutanalyse mit Eynollah
+
+.cols[
+.fifty[
+- [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
+    * kombiniert maschinelles Lernen und Heuristiken
+    * trainierbar, frei verfügbare Basismodelle
+    * Segmentierung **und** Textfluss
+    * OCR-D-Wrapper
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="https://hackmd.io/_uploads/Hyzfb-kJp.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Layoutanalyse mit Eynollah
+
+.cols[
+.fifty[
+- [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
+    * kombiniert maschinelles Lernen und Heuristiken
+    * trainierbar, frei verfügbare Basismodelle
+    * Segmentierung **und** Textfluss
+    * OCR-D-Wrapper
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="https://hackmd.io/_uploads/SJ8yAg1yT.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Layoutanalyse mit Eynollah
+
+.cols[
+.fifty[
+- [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
+    * kombiniert maschinelles Lernen und Heuristiken
+    * trainierbar, frei verfügbare Basismodelle
+    * Segmentierung **und** Textfluss
+    * OCR-D-Wrapper
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="https://hackmd.io/_uploads/HkyxAekk6.jpg" height="500px" />
 </p>
 ]
 ]
