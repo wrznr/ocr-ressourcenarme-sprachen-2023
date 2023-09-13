@@ -77,21 +77,35 @@ count: false
 
 # Einordnung und Hintergründe zum Obersorbischen
 
+.cols[
+.fifty[
 * erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
 * zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten herausgebildet
 * seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache (sog. analogen Rechtschreibung, in Antiqua)
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="https://digital.slub-dresden.de/data/kitodo/LuthDer_1737590336/LuthDer_1737590336_tif/jpegs/00000032.tif.original.jpg" />
+</p>
+]
+]
 
 ---
 
 # Sorbisches Institut
 
-* Anfang 1992 gegründete außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
-* hervorgegangen aus dem 1951–1991 bestehenden Institut für sorbische Volksforschung in der DDR  (sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
-* zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen Kulturwissenschaften und Sprachwissenschaft 
-* öffentliche wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter (Sorbische Zentralbibliothek und Sorbisches Kulturarchiv)
-* „Lětopis“ als interdisziplinäres Fachorgan,  zwei spezifische Schriftenreihen sowie digitale Angebote
-* mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
+- Gründung Anfang 1992
+- außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
+    * Vorgänger: 1951–1991 Institut für sorbische Volksforschung in der DDR
+    * sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
+- zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen
+    * Kulturwissenschaften und Sprachwissenschaft 
+- öffentliche wissenschaftliche Bibliothek und Archiv mit Forschungs- und Servicecharakter (Sorbische Zentralbibliothek und Sorbisches Kulturarchiv)
+- „Lětopis“ als interdisziplinäres Fachorgan
+    * zwei spezifische Schriftenreihen sowie digitale Angebote
+- mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
+
 ---
 ## Wissenschaftlich nachnutzbare Volltexte
  
