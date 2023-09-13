@@ -553,9 +553,10 @@ count: false
 
 
 - Umfang der GT-Daten
-  - Fraktur: &gt; 16.000 Zeilen (1843–1911)
-  - Antiqua: &gt; 16.000 Zeilen (1880–1934, 1950–)
+    + Fraktur: &gt; 16.000 Zeilen (1843–1911)
+    + Antiqua: &gt; 16.000 Zeilen (1880–1934, 1950–)
 - [Training von Modellen](https://github.com/bertsky/hsbcala) für Tesseract / Calamari …
+    + auf Basis existierender Modelle
 - Zeichenfehlerraten (CER) auf Test-GT:
 
 |CER OCR|Abbyy Srv14† | Tesseract | hsb (Tess) | hsb (Cala) | hsb (multi) 
@@ -760,7 +761,11 @@ count: false
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
     * kombiniert maschinelles Lernen und Heuristiken
     * trainierbar, frei verfügbare Basismodelle
-    * Segmentierung **und** Textfluss
+    * Erkennung von:
+        + Seitenrändern
+        + Linien und Ornamentierung
+        + Blocksegmentierung und Textfluss
+        + Zeilensegmentierung
     * OCR-D-Wrapper
 ]
 .fourty[
@@ -778,7 +783,11 @@ count: false
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
     * kombiniert maschinelles Lernen und Heuristiken
     * trainierbar, frei verfügbare Basismodelle
-    * Segmentierung **und** Textfluss
+    * Erkennung von:
+        + Seitenrändern
+        + Linien und Ornamentierung
+        + Blocksegmentierung und Textfluss
+        + Zeilensegmentierung
     * OCR-D-Wrapper
 ]
 .fourty[
@@ -799,7 +808,11 @@ count: false
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
     * kombiniert maschinelles Lernen und Heuristiken
     * trainierbar, frei verfügbare Basismodelle
-    * Segmentierung **und** Textfluss
+    * Erkennung von:
+        + Seitenrändern
+        + Linien und Ornamentierung
+        + Blocksegmentierung und Textfluss
+        + Zeilensegmentierung
     * OCR-D-Wrapper
 ]
 .fourty[
@@ -820,7 +833,11 @@ count: false
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
     * kombiniert maschinelles Lernen und Heuristiken
     * trainierbar, frei verfügbare Basismodelle
-    * Segmentierung **und** Textfluss
+    * Erkennung von:
+        + Seitenrändern
+        + Linien und Ornamentierung
+        + Blocksegmentierung und Textfluss
+        + Zeilensegmentierung
     * OCR-D-Wrapper
 - manuelle Korrektur
 ]
@@ -842,7 +859,11 @@ count: false
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
     * kombiniert maschinelles Lernen und Heuristiken
     * trainierbar, frei verfügbare Basismodelle
-    * Segmentierung **und** Textfluss
+    * Erkennung von:
+        + Seitenrändern
+        + Linien und Ornamentierung
+        + Blocksegmentierung und Textfluss
+        + Zeilensegmentierung
     * OCR-D-Wrapper
 - manuelle Korrektur
 ]
@@ -857,53 +878,71 @@ count: false
 
 # Texterkennung
 
-
-
----
-
-## Erste Studie zu Ground-Truth / Trainingsmodell in 2019
-
-OCR für ressourcenarme Sprachen am Beispiel des Obersorbischen  
-(Kay-Michael Würzner & Wito Böhmak, Abstract zum Dt. Bibtag 2020 + DFG-Antrag):
-
-- Bericht über manuelle (und iterative) Erstellung von **GT** für Fraktur-Obersorbisch und **Training** eines Tesseract-Modells per Finetuning von `Fraktur`
-- Untersuchung mit ABBYY Recognition Server und Tesseract auf ihre  
-  **Eignung** für die Erzeugung wissenschaftlich nachnutzbarer Volltexte
-- sowohl ABBYY Recognition Server mit dem Modell `Altdeutsch/Gothic`  
-  als auch Tesseract mit dem sprachunabhängigen Modell `Fraktur`  
-  erzielten **schlechte** Genauigkeit
-- Erstellung von GT und eigenem Trainingsmodell `hsb_frak` mit einfachem Workflow: **Machbarkeit**
-
-
-| | ABBYY | Tesseract | Tesseract (nachtrainiert) |
-| --- | --- | --- | --- |
-| Zeichenfehlerrate: | 12-17% | 8-11% | 0,5-3,7% |
-
-
-<!-- also: "Lösungsansatz" -->
+.cols[
+.fifty[
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/ocr.jpg" height="500px" />
+</p>
+]
+]
 
 ---
 
-## Entwicklung seit 2020
+# Semiautomatische Textkorrektur
 
-<!-- oder "Fortschritt"? -->
 
-**Verstetigung** in anderen Projektkontexten
+.cols[
+.fifty[
+- Nachnutzung der freien Rechtschreibkorrektur [`hunspell`](https://hunspell.github.io/)
+    * obersorbische Musterliste auf Basis von [`soblexx`](https://sobblexx.de)
+    * auch für Browser etc. nutzbar
+- Identifikation und ggf. Korrektur nicht erkannter Wörter
+    * einfaches, selbstgebautes Webinterface
+    * gewisse Anzahl an Falschnegativen
+        + unschön für die Bearbeitung
+        + Integration in Lexikon
+    * gewisse Anzahl an Falschpositiven
+        + „Quasihomographe“ (*sto* vs. *što*)
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/hunspell.jpg" height="300px" />
+</p>
+]
+]
 
-<!-- Verstetigung der Projektidee durch andere Förderinstrumente -->
+---
 
-- SI: Retrodigitalisierung und Präsentation auf Basis von Kitodo
-- SLUB: Beteiligung bei…
-   + Entwicklung [Kitodo](https://www.kitodo.org/) und [DFG-Viewer](http://dfg-viewer.de/)
-   + DFG-Förderinitiative [OCR-D](https://ocr-d.de)
-   + DDB [Zeitungsportal](https://pro.deutsche-digitale-bibliothek.de/deutsches-zeitungsportal)
+# TEI-Konvertierung
 
-<!-- Machbarkeit im Gesamtsystem -->
+---
 
-**Einsetzbarkeit** im produktiven Betrieb mit komplexem Workflow
-<!-- Reading Order zu Blockreihenfolge, Images zu Scans, LogicStruc = Struktur (manu oder auto), DFG-Viewer zu KITODO.PRES / DFG-Viewer, OCRD zu OCR-D, PROZESSOR zu docstruct, PAGEXML zu PAGE, TEI-XML zu TEI -->
+class: part-slide
+count: false
 
-![](https://i.imgur.com/VyNdEKM.png)
+# Diskussionsimpulse
+
+---
+
+# Diskussionsimpulse
+
+- kommerzielle OCR
+   + Abbyy, Google CloudVision, Amazon Textract
+   + Datenhoheit (Transkribus)
+- Double Keying
+- Layouterkennung
+    + komplexe Layouts
+    + Textfluss
+    + logische Struktur
+    + zyklische „Abhängigkeiten“
+    + richtig wäre: Segmentierung, Texterkennung, Segmentklassifizierung
+- Ressourcenarmut
+    + bei OCR mit viel Mühe aufgeschlossen
+    + weitergehende Annotationen
+        * PoS-Tagging
+        * NER
 
 ---
 
@@ -933,33 +972,6 @@ außerdem: 2. Kasten vor dem 1. Kasten
 
 ---
 
-## Maßnahmen zur Verbesserung der Textqualität für Obersorbisch
-
-| | OLR | OCR | AS | |
-| --- | --- | --- | --- | --- |
-| Bereitstellung von Daten |  | ✅ |  | SI |
-| Entwicklung von Werkzeugen | ✅ | ✅ | ✅ | SLUB / OCR-D |
-| Entwicklung von Modellen |  | ✅ |  | SI / SLUB |
-| Erarbeitung von Workflows | ✅ | ✅ | ✅ | SI / SLUB |
-
-OLR: Optische Layouterkennung (Segmentierung)
-OCR: Optische Zeichenerkennung
-AS: Artikelseparierung (Strukturerkennung)
-
----
-
-## Vorgehen bei Segmentierung
-
-- Nutzung der Prozessoren aus OCR-D (hier [`eynollah`](https://github.com/qurator-spk/eynollah) und [`ocrd_segment`](https://github.com/OCR-D/ocrd_segment))
-- Erkennung von:
-  + Seitenrändern
-  + Linien und Ornamentierung
-  + Blocksegmentierung und Lesereihenfolge
-  + Zeilensegmentierung
-- Adäquate Evaluierung: für Aussage über Gesamtqualität der Texterkennung ist **Anteil des Segmentierungsfehlers** mit zu betrachten!
-
----
-
 ## Vorgehen bei Zeichenerkennung
 
 - Nutzung der Werkzeuge und Workflows von OCR-D
@@ -972,48 +984,6 @@ AS: Artikelseparierung (Strukturerkennung)
     - [Transkription mit Larex](http://ocr.slub-dresden.de/Larex)
 - iteratives Vorgehen Prozessierung – GT-Erstellung – Training  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ⬑──────────────────┘
-
----
-
-## Iteratives Vorgehen
-
-  1. Verbesserung der OCR-D-Werkzeuge und Workflows  
-     (z.B. Binarisierung SBB)
-  2. Nutzung existierender Modelle für die OCR
-  3. Transkription von GT-Material
-     (Level 2 nach [Richtlinien OCR-D / DFG](https://ocr-d.de/en/gt-guidelines/trans/))
-     - neue Seiten
-     - Finden und Beseitigen von Transkriptionsfehlern 
-  4. Neutrainieren der OCR-Modelle, 
-  5. Wiederholung und stetige Evaluierung an ausgewähltem GT-Material
-
-<!-- Vorgehen iterativ: GT-Erzeugung auf Basis von Trainingsmodellen vorangegangener GT-Erzeugung -->
-
----
-
-## Training und Evaluierung
-
-<!-- Messungen -->
-
-- Umfang der GT-Daten
-  - Fraktur: &gt; 16.000 Zeilen (1843-1911)
-  - Antiqua: &gt; 16.000 Zeilen (1880-1934, 1950-)
-- [Training von Modellen](https://github.com/bertsky/hsbcala) für Tesseract / Calamari …
-- Zeichenfehlerraten (CER) auf Test-GT:
-
-|CER OCR|Abbyy Srv14* | Tesseract | hsb (Tess) | hsb (Cala) | hsb (multi) 
-| ---------- | ---------- | -------- | ------------- |-------- |-------- |
-|Fraktur**  | 14,72% | 9,01% |0.56% | 0.45%  | 0.37% |
-|Antiqua   |  ***  | 2.17%   |  0.89%  | 0.52%    | 0.48% |
-
-
-`*` Abbyy repräsentiert `ſ` als `s` (ca. 50-80% Fehleranteil)
-`**` v.a. Überpunkt vs. Akut
-`***` Stichproben mit Abbyy: bei Korrektur von ĕ (e breve) nach ě (e caron): < 1%
-
-
-<!-- eventuell zweite Folie nur für Antiqua! -->
-<!-- Ende RS-->
 
 ---
 
@@ -1082,43 +1052,7 @@ Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbs
 </div>
 
 ---
-##Volltext-Generierung bei Tageszeitung Nowa Doba (1947-1990) 
-<div class="col-container">
-    <div class="col80">
-Nowa Doba
-Workflow
-![](https://hackmd.io/_uploads/S1J-bWky6.jpg)
-Automatische Segmentierung
-![](https://hackmd.io/_uploads/Hyzfb-kJp.jpg)
-Automatische Reihenfolge Erkennung
-![](https://hackmd.io/_uploads/SJ8yAg1yT.jpg)
-Manuelle Korrektur der Reihenfolge
-![](https://hackmd.io/_uploads/HkyxAekk6.jpg)
-OCR und Post-OCR
-![](https://hackmd.io/_uploads/H19l0ek1p.jpg)
-Wörterbuch-Abgleich bei (manuell)
-![](https://hackmd.io/_uploads/H1VveWy1p.jpg)
-Automatische Überführung in TEI 1
-![](https://hackmd.io/_uploads/HknPx-y16.jpg)
-Manuelle Annotation nach TEI 2
-![](https://hackmd.io/_uploads/S1Lv7-y16.jpg)
-     
-    </div>
-</div>
 
-
----
-## Fragen?
-
-Vielen Dank für Ihre Aufmerksamkeit!
-
-- wito.bejmak [[at]] serbski-institut.de
-- robert.sachunsky [[at]] slub-dresden.de
-
-https://hackmd.io/@bertsky/bibkon22-hsb-si-slub
-
----
----
 # Many thanks for your attention!
 
 <center>
