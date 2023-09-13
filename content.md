@@ -64,19 +64,28 @@ count: false
 ---
 
 # Einordnung und Hintergründe zum Obersorbischen
-Obersorbisch - hornjoserbšćina
-https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/
-* westslawische Sprache, verschiedene Dialekte, bildet gemeinsam mit dem Niedersorbischen das Sorbische.
-* von etwa 20000–25000 Menschen in der Oberlausitz gesprochen, Gegend zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
-* im Deutschen bis 1945 überwiegend Wendisch genannt.
-* Die obersorbische Schriftsprache der Gegenwart entwickelte sich aus der Vereinheitlichung zweier Traditionslinien: katholischen und evangelischen Schrifttum
-* erste gedruckte obersorbische Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
+[Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
+- westslawische Sprache, verschiedene Dialekte
+    * Sorbisch = Niedersorbisch und Obersorbisch
+    * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
+    * Gegend zwischen Bautzen (Budyšin), Kamenz (Kamjenc) und Hoyerswerda (Wojerecy) 
+    * im Deutschen bis 1945 als *Wendisch* benannt
+- obersorbische Schriftsprache der Gegenwart ← Vereinheitlichung zweier Traditionslinien
+    * katholisches und evangelisches Schrifttum
+
+---
+
+# Einordnung und Hintergründe zum Obersorbischen
+
+* erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
 * zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten herausgebildet
-* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache ( sog. analogen Rechtschreibung, in Antiqua)
+* seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung der Schriftsprache (sog. analogen Rechtschreibung, in Antiqua)
 * nach 1945 Schaffung eines einheitlichen orthografischen Systems
+
 ---
 
 # Sorbisches Institut
+
 * Anfang 1992 gegründete außeruniversitäre Einrichtung zur Erforschung von Sprache, Geschichte und Kultur der Sorben in der Ober- und Niederlausitz
 * hervorgegangen aus dem 1951–1991 bestehenden Institut für sorbische Volksforschung in der DDR  (sorbisches wissenschaftliche Institut in Tradition der Maćica Serbska)
 * zwei standortübergreifende (Bautzen und Cottbus) Forschungsabteilungen Kulturwissenschaften und Sprachwissenschaft 
