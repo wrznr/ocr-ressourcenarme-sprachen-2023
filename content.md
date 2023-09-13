@@ -548,6 +548,28 @@ count: false
 
 ---
 
+
+# Texterkennung: Training und Evaluierung
+
+
+- Umfang der GT-Daten
+  - Fraktur: &gt; 16.000 Zeilen (1843–1911)
+  - Antiqua: &gt; 16.000 Zeilen (1880–1934, 1950–)
+- [Training von Modellen](https://github.com/bertsky/hsbcala) für Tesseract / Calamari …
+- Zeichenfehlerraten (CER) auf Test-GT:
+
+|CER OCR|Abbyy Srv14† | Tesseract | hsb (Tess) | hsb (Cala) | hsb (multi) 
+| ---------- | ---------- | -------- | ------------- |-------- |-------- |
+|Fraktur‡  | 14,72% | 9,01% |0,56% | 0,45%  | 0,37% |
+|Antiqua   |  ⁜  | 2,17%   |  0,89%  | 0,52%    | 0,48% |
+
+
+† Abbyy repräsentiert `ſ` als `s`
+‡ v.a. Überpunkt vs. Akut
+⁜ Stichproben mit Abbyy: bei Korrektur von ĕ (e breve) nach ě (e caron): < 1%
+
+---
+
 # *Layoutanalyse* per Pixelklassifizierung
 
 .cols[
@@ -742,8 +764,26 @@ count: false
     * OCR-D-Wrapper
 ]
 .fourty[
+]
+]
+
+---
+
+count: false
+
+# Layoutanalyse mit Eynollah
+
+.cols[
+.fifty[
+- [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
+    * kombiniert maschinelles Lernen und Heuristiken
+    * trainierbar, frei verfügbare Basismodelle
+    * Segmentierung **und** Textfluss
+    * OCR-D-Wrapper
+]
+.fourty[
 <p style="margin-top:-30px">
-<img src="https://hackmd.io/_uploads/Hyzfb-kJp.jpg" height="500px" />
+<img src="img/segeynollah.jpg" height="500px" />
 </p>
 ]
 ]
@@ -764,7 +804,7 @@ count: false
 ]
 .fourty[
 <p style="margin-top:-30px">
-<img src="https://hackmd.io/_uploads/SJ8yAg1yT.jpg" height="500px" />
+<img src="img/segeynollah_fluss.jpg" height="500px" />
 </p>
 ]
 ]
@@ -782,13 +822,42 @@ count: false
     * trainierbar, frei verfügbare Basismodelle
     * Segmentierung **und** Textfluss
     * OCR-D-Wrapper
+- manuelle Korrektur
 ]
 .fourty[
 <p style="margin-top:-30px">
-<img src="https://hackmd.io/_uploads/HkyxAekk6.jpg" height="500px" />
+<img src="img/segeynollah_fluss.jpg" height="500px" />
 </p>
 ]
 ]
+
+---
+
+count: false
+
+# Layoutanalyse mit Eynollah
+
+.cols[
+.fifty[
+- [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
+    * kombiniert maschinelles Lernen und Heuristiken
+    * trainierbar, frei verfügbare Basismodelle
+    * Segmentierung **und** Textfluss
+    * OCR-D-Wrapper
+- manuelle Korrektur
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/seg_korr.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+# Texterkennung
+
+
 
 ---
 
