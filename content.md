@@ -1036,8 +1036,7 @@ count: false
 - Probleme
     + **Anpassungsmöglichkeiten** stark eingeschränkt
         * Training, Kombination mit anderen Werkzeugen
-    + **Datenhoheit**
-        * „Was passiert mit meinen Eingaben?“
+    + **Datenhoheit**: „Was passiert mit meinen Eingaben?“
 - Potenziale
     + enorme Power (Trainingsdaten, Rechnerkapazitäten)
     + Pflege und Witerentwicklung „gesichert“
@@ -1046,29 +1045,41 @@ count: false
 
 # Diskussionsimpulse: Double Keying
 
-- Double Keying
+- **manuelle** Erfassung durch Dienstleister aus „Fernost“ 
+- scheinbar einfachste Form hochqualitative Volltexte zu erhalten
+    + [Deutsches Textarchiv](https://www.deutsches-textarchiv.de)
+- jedoch fehlende Text-Bild-Verknüpfung
+- hohe Kostenfaktoren
+- moralische Fragen
+    + „Klicksklaven“
 
 
 ---
 
 # Diskussionsimpulse: Layouterkennung
 
-- Layouterkennung
+- größte offene Baustelle
     + komplexe Layouts
+        * Zeitungen, Magazine, Formulare etc.
     + Textfluss
+        * Rekonstruktion der intendierten Lesereihenfolge
     + logische Struktur
-    + zyklische „Abhängigkeiten“
-    + richtig wäre: Segmentierung, Texterkennung, Segmentklassifizierung
+        * seitenübergreifende bzw. diskontinuierliche Phänomene
+    + teilweise Abhängigkeit der Segmentklassifizierung vom Text
+        * richtig wäre: Segmentierung, Texterkennung, Segmentklassifizierung
+- DFG-Projekt *Robuste und performante Verfahren für die Layoutanalyse in OCR-D*
+    + ab November 2023
 
 ---
 
 # Diskussionsimpulse: Beyond OCR
 
-- Ressourcenarmut
+- „Ressourcenarmut“
     + bei OCR mit viel Mühe aufgeschlossen
-    + weitergehende Annotationen
+    + weitergehende Annotationen?
         * PoS-Tagging
         * NER
+- **Large Language Models** (ChatGPT und Co.)
 
 ---
 
