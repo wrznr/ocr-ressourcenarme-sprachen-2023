@@ -941,8 +941,7 @@ count: false
     + ebenfalls auf Basis neuronaler Netze
     + nur **wenige mitgelieferte Modelle**
     + weitere „Inkarnationen“
-        * [`kraken`](http://kraken.re/)
-        * [`Calamari`](https://github.com/Calamari-OCR/calamari)
+        * [`kraken`](http://kraken.re/), [`Calamari`](https://github.com/Calamari-OCR/calamari)
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -960,9 +959,9 @@ count: false
 - Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse in einen Volltext
     + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
     + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
-- Idee: **Extraktion** korrekter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
-    * **Selbsteinschätzung** als Entscheidungskriterium
-    * Integration vorhandener OCR ebenfalls möglich!
+    + **Extraktion** korrekter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
+        * **Selbsteinschätzung** als Entscheidungskriterium
+        * Integration vorhandener OCR ebenfalls möglich!
 ]
 .fourty[
 <p style="margin-top:-30px">
