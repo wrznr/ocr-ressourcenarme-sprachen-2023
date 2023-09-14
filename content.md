@@ -981,7 +981,7 @@ count: false
 .cols[
 .fifty[
 - Nachnutzung der freien Rechtschreibkorrektur [`hunspell`](https://hunspell.github.io/)
-    * obersorbische Musterliste auf Basis von [`soblex`](https://sobblexx.de)
+    * obersorbische Musterliste auf Basis von [`soblex`](https://soblexx.de)
     * auch für Browser etc. nutzbar
 - Identifikation und ggf. Korrektur nicht erkannter Wörter
     * einfaches, selbstgebautes Webinterface
