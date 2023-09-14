@@ -565,11 +565,11 @@ count: false
 - zu wenige Beispiele für große Fonts und für spezifische Zeichen
 - Wandel historischer Schreibweisen
     * z.B. am Übergang von Überpunkt zu Akut; Druckschwäche? 
-      <img src="https://i.imgur.com/I1lloVk.png" width="350px" />
+      <img src="https://i.imgur.com/I1lloVk.png" width="400px" />
     * Absicht?
-      <img src="https://i.imgur.com/uH5DbMC.png" width="150px" />
+      <img src="https://i.imgur.com/uH5DbMC.png" width="200px" />
     * beschränkter Drucksatz?
-      <img src="https://i.imgur.com/1Y3o6Ig.png" width="150px" />
+      <img src="https://i.imgur.com/1Y3o6Ig.png" width="200px" />
 
 ---
 
@@ -930,15 +930,15 @@ count: false
 
 .cols[
 .fifty[
-- viele verfügbare OCR-Engines
+- viele verfügbare **OCR-Engines**
 - [`Tesseract`](https://github.com/tesseract-ocr/tesseract)
-    + ursprünglich von Hewlett-Packard entwickelt
+    + ursprünglich von HP entwickelt
     + von Google übernommen und Open-Source gestellt
     + viele **mitgelieferte Modelle** (auch für „kleinere“ Sprachen)
-    + ab Version 4 Umstieg auf zeilenorientierte Erkennung auf Basis neuronaler Netze
+    + ab Version 4 auf Basis neuronaler Netze
 - [`OCRopus`](https://github.com/tmbdev/ocropy)
     + entwickelt von Thomas Breul mit Unterstützung von Google
-    + ursprünglich als Wrapper für Tesseract, später mit eigener Erkennungsroutine auf Basis neuronaler Netze
+    + ebenfalls auf Basis neuronaler Netze
     + nur **wenige mitgelieferte Modelle**
     + weitere „Inkarnationen“
         * [`kraken`](http://kraken.re/)
@@ -957,12 +957,12 @@ count: false
 
 .cols[
 .fifty[
-- Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse **in einen Volltext**
+- Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse in einen Volltext
     + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
     + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
-- Idee: **Extraktion** korrekt erkannter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
-- **Selbsteinschätzung** als Entscheidungskriterium
-- Integration vorhandener OCR ebenfalls möglich!
+- Idee: **Extraktion** korrekter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
+    * **Selbsteinschätzung** als Entscheidungskriterium
+    * Integration vorhandener OCR ebenfalls möglich!
 ]
 .fourty[
 <p style="margin-top:-30px">
