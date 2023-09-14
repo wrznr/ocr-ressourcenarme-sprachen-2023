@@ -556,6 +556,10 @@ count: false
     + manuelle Erstellung (von Null oder aufbauend auf bereits erzeugtem Text, ggf. iterativ)
 - aus Daten werden sog. **Modelle** erzeugt
 
+<center>
+<img src="img/gtlinecode.JPG" width="400px"/>
+</center>
+
 ---
 
 # Texterkennung: Trainingsdaten
@@ -1018,18 +1022,34 @@ count: false
 
 ---
 
-# Diskussionsimpulse
+# Diskussionsimpulse: kommerzielle OCR
 
 - kommerzielle OCR
    + Abbyy, Google CloudVision, Amazon Textract
    + Datenhoheit (Transkribus)
+
+---
+
+# Diskussionsimpulse: Double Keying
+
 - Double Keying
+
+
+---
+
+# Diskussionsimpulse: Layouterkennung
+
 - Layouterkennung
     + komplexe Layouts
     + Textfluss
     + logische Struktur
     + zyklische „Abhängigkeiten“
     + richtig wäre: Segmentierung, Texterkennung, Segmentklassifizierung
+
+---
+
+# Diskussionsimpulse: Beyond OCR
+
 - Ressourcenarmut
     + bei OCR mit viel Mühe aufgeschlossen
     + weitergehende Annotationen
