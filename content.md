@@ -125,6 +125,10 @@ count: false
     * zwei spezifische Schriftenreihen sowie digitale Angebote
 - mehr als 70 Mitarbeiter (hoher Anteil an Drittmittel-Projekten)
 
+<center>
+<a href="https://www.serbski-institut.de/publikationen/online-publikationen">www.serbski-institut.de/publikationen/online-publikationen</a>
+</center>
+
 ---
 
 # Ausgangssituation
