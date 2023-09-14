@@ -957,9 +957,8 @@ count: false
 .cols[
 .fifty[
 - Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse in einen Volltext
-    + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
     + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
-    + **Extraktion** korrekter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
+    + **Extraktion** korrekter Textbestandteile [**aus mehreren OCR-Durchgängen**](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
         * **Selbsteinschätzung** als Entscheidungskriterium
         * Integration vorhandener OCR ebenfalls möglich!
 ]
@@ -997,6 +996,19 @@ count: false
 
 # TEI-Konvertierung
 
+- METS/ALTO: de-facto Standard für Repräsentation digitaler Volltexte
+    * von der DFG empfohlene Formate für Digitalisierung
+    * Anschluss an Präsentationssysteme
+    * **Standoff Markup** für Text, Layout, Struktur → **seitenzentriert**
+    * Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbski-institut.de/ska-sn23031878_3u4)
+- TEI-XML: de-facto Standard für Repräsentation digitaler Volltexte
+    * von der DFG empfohlenes Format für Korpora
+    * Anschluss an Forschungsinfrastrukturen
+    * **Inline Markup** für Text, Layout, Struktur → **dokumentzentriert**
+- [`mm2tei`](https://github.com/slub/mets-mods2tei) als Brücke zwischen beiden Welten
+    * Minimalauszeichnung
+    * schrittweise manuelle Ergänzung
+
 ---
 
 class: part-slide
@@ -1026,6 +1038,18 @@ count: false
 
 ---
 
+class: part-slide
+
+# Many thanks for your attention!
+
+<center>
+<a href="https://wrznr.github.io/ocr-ressourcenarme-sprachen-2023/">wrznr.github.io/ocr-ressourcenarme-sprachen-2023</a>
+</center>
+
+---
+
+count: false
+
 ## Was macht eine hochqualitative Texterkennung aus?
 
 - *gute Segmentierung*: Ist der Text richtig lokalisiert worden?  
@@ -1049,23 +1073,9 @@ außerdem: 2. Kasten vor dem 1. Kasten
 
 
 <!-- Ende WB -->
-
 ---
 
-## Vorgehen bei Zeichenerkennung
-
-- Nutzung der Werkzeuge und Workflows von OCR-D
-- Nutzung von Multi-OCR-Alignierung zur weiteren Verbesserung der OCR-Qualität  
-  (z.B. Diplopie-Problem bei Tesseract)
-- [Training von eigenen Modellen für Obersorbisch](https://github.com/bertsky/hsbcala) (Fraktur + Antiqua),  
-  aufbauend auf Community-Modellen (Tesseract / Calamari OCR)
-- Erstellung von GT-Material (eigenes Repository für `hsb`)
-    - [Transkription mit Aletheia](https://i.imgur.com/2kSDu1y.jpg)
-    - [Transkription mit Larex](http://ocr.slub-dresden.de/Larex)
-- iteratives Vorgehen Prozessierung – GT-Erstellung – Training  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ⬑──────────────────┘
-
----
+count: false
 
 ## Strukturerkennung – warum? 
 
@@ -1086,6 +1096,8 @@ außerdem: 2. Kasten vor dem 1. Kasten
 
 ---
 
+count: false
+
 ## Strukturerkennung – was?
 
 <!-- Basis ist Blockreihenfolge aus OCR-D  -->
@@ -1103,6 +1115,8 @@ außerdem: 2. Kasten vor dem 1. Kasten
 Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbski-institut.de/ska-sn23031878_3u4)
 
 ---
+
+count: false
 
 ## Strukturerkennung – wie?
 
@@ -1130,13 +1144,3 @@ Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbs
 
     </div>
 </div>
-
----
-
-class: part-slide
-
-# Many thanks for your attention!
-
-<center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
-</center>
