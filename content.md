@@ -565,11 +565,11 @@ count: false
 - zu wenige Beispiele für große Fonts und für spezifische Zeichen
 - Wandel historischer Schreibweisen
     * z.B. am Übergang von Überpunkt zu Akut; Druckschwäche? 
-      ![](https://i.imgur.com/I1lloVk.png =350x)
+      ![](https://i.imgur.com/I1lloVk.png =350px)
     * Absicht?
-      ![](https://i.imgur.com/uH5DbMC.png =150x)
+      ![](https://i.imgur.com/uH5DbMC.png =150px)
     * beschränkter Drucksatz?
-      ![](https://i.imgur.com/1Y3o6Ig.png =150x)
+      ![](https://i.imgur.com/1Y3o6Ig.png =150px)
 
 ---
 
