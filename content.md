@@ -1085,7 +1085,7 @@ count: false
 
 class: part-slide
 
-# Many thanks for your attention!
+# Vielen Dank für Ihre Aufmekrsamkeit!
 
 <center>
 <a href="https://wrznr.github.io/ocr-ressourcenarme-sprachen-2023/">wrznr.github.io/ocr-ressourcenarme-sprachen-2023</a>
