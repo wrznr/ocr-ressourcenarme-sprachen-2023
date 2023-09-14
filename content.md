@@ -5,12 +5,13 @@ layout: true
 <div class="my-footer">
   <table>
     <tr>
-      <td style="text-align:right">Böhmak</td>
-      <td style="text-align:left">Sorbisches Institut Bautzen</td>
+      <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
+      <td>Date</td>
+      <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Würzner</td>
-      <td style="text-align:left">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
+      <td style="text-align:right">Referate 2.5 & 4.3</td>
+      <td />
     </tr>
   </table>
 </div>
