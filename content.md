@@ -935,9 +935,9 @@ count: false
     + ursprünglich von HP entwickelt
     + von Google übernommen und Open-Source gestellt
     + viele **mitgelieferte Modelle** (auch für „kleinere“ Sprachen)
-    + ab Version 4 auf Basis neuronaler Netze
+    + ab Version 4 mit neuronalen Netzen
 - [`OCRopus`](https://github.com/tmbdev/ocropy)
-    + entwickelt von Thomas Breul mit Unterstützung von Google
+    + entwickelt von Thomas Breul
     + ebenfalls auf Basis neuronaler Netze
     + nur **wenige mitgelieferte Modelle**
     + weitere „Inkarnationen“
