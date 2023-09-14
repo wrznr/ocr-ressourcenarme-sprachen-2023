@@ -566,9 +566,11 @@ count: false
 |Antiqua   |  ⁜  | 2,17%   |  0,89%  | 0,52%    | 0,48% |
 
 
-† Abbyy repräsentiert `ſ` als `s`
-‡ v.a. Überpunkt vs. Akut
-⁜ Stichproben mit Abbyy: bei Korrektur von ĕ (e breve) nach ě (e caron): < 1%
+<div style="font-size:8pt">
+† Abbyy repräsentiert `ſ` als `s`<br/>
+‡ v.a. Überpunkt vs. Akut<br/>
+⁜ Stichproben mit Abbyy: bei Korrektur von ĕ (e breve) nach ě (e caron): < 1%<br/>
+</div>
 
 ---
 
