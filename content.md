@@ -1024,9 +1024,23 @@ count: false
 
 # Diskussionsimpulse: kommerzielle OCR
 
-- kommerzielle OCR
-   + Abbyy, Google CloudVision, Amazon Textract
-   + Datenhoheit (Transkribus)
+- verschiedene Anbieter mit unterschliedlichem Hintergrund
+    + lange Zeit **Abbyy** als Platzhirsch
+        * Anschluss verloren?
+    + IT-Firmen (Google CloudVision, Amazon Textract, MS Azure)
+        * Fokus **Textspotting**
+        * hohe Varianzrbustheit
+    + Transkribus
+        * ursprünglich aus der Wissenschaft
+        * Fokus Handschriftenerkennung
+- Probleme
+    + **Anpassungsmöglichkeiten** stark eingeschränkt
+        * Training, Kombination mit anderen Werkzeugen
+    + **Datenhoheit**
+        * „Was passiert mit meinen Eingaben?“
+- Potenziale
+    + enorme Power (Trainingsdaten, Rechnerkapazitäten)
+    + Pflege und Witerentwicklung „gesichert“
 
 ---
 
