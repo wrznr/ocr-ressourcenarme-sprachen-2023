@@ -1039,7 +1039,7 @@ count: false
     + **Datenhoheit**: „Was passiert mit meinen Eingaben?“
 - Potenziale
     + enorme Power (Trainingsdaten, Rechnerkapazitäten)
-    + Pflege und Witerentwicklung „gesichert“
+    + Pflege und Weiterentwicklung „gesichert“
 
 ---
 
