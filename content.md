@@ -983,16 +983,14 @@ count: false
     * auch für Browser etc. nutzbar
 - Identifikation und ggf. Korrektur nicht erkannter Wörter
     * einfaches, selbstgebautes Webinterface
-    * gewisse Anzahl an Falschnegativen
+    * gewisse Anzahl an **Falschnegativen**
         + unschön für die Bearbeitung
         + Integration in Lexikon
-    * gewisse Anzahl an Falschpositiven
+    * gewisse Anzahl an **Falschpositiven**
         + „Quasihomographe“ (*sto* vs. *što*)
 ]
 .fourty[
-<p style="margin-top:-30px">
 <img src="img/hunspell.jpg" height="300px" />
-</p>
 ]
 ]
 
@@ -1135,6 +1133,8 @@ Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbs
 </div>
 
 ---
+
+class: part-slide
 
 # Many thanks for your attention!
 
