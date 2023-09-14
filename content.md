@@ -30,7 +30,7 @@ layout: true
       <td style="font-size:8pt"><b>14.September 2023</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Workshop „KI für kleinere Sprachen“</td>
+      <td style="font-size:8pt">Workshop „KI-gestützte Texterkennung bei ‚kleinen‘ Sprachen“</td>
     </tr>
   </table>
 </div>
@@ -958,7 +958,7 @@ count: false
 .fifty[
 - Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse in einen Volltext
     + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
-    + **Extraktion** korrekter Textbestandteile [**aus mehreren OCR-Durchgängen**](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
+    + **Extraktion** korrekter Textbestandteile [**aus mehreren OCR-Durchgängen**](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf)
         * **Selbsteinschätzung** als Entscheidungskriterium
         * Integration vorhandener OCR ebenfalls möglich!
 ]
@@ -996,12 +996,12 @@ count: false
 
 # TEI-Konvertierung
 
-- METS/ALTO: de-facto Standard für Repräsentation digitaler Volltexte
+- METS/ALTO: de-facto Standard für Repräsentation digitaler Volltexte in Bibliotheken
     * von der DFG empfohlene Formate für Digitalisierung
     * Anschluss an Präsentationssysteme
     * **Standoff Markup** für Text, Layout, Struktur → **seitenzentriert**
     * Anwendungsbeispiel: [Serbske Nowiny 23.3.1878 (DFG-Viewer)](http://digital.serbski-institut.de/ska-sn23031878_3u4)
-- TEI-XML: de-facto Standard für Repräsentation digitaler Volltexte
+- TEI-XML: de-facto Standard für Repräsentation digitaler Volltexte in der Wissenschaft
     * von der DFG empfohlenes Format für Korpora
     * Anschluss an Forschungsinfrastrukturen
     * **Inline Markup** für Text, Layout, Struktur → **dokumentzentriert**
