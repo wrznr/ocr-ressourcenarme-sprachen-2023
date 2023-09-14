@@ -6,12 +6,12 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>Date</td>
-      <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
+      <td>Würzner</td>
+      <td style="text-align:right"><a href="https://www.slub-dresden.de/" style="visibility:hidden">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referate 2.5 & 4.3</td>
-      <td />
+      <td style="text-align:right">Sorbisches Institut</td>
+      <td>Böhmak</td>
     </tr>
   </table>
 </div>
