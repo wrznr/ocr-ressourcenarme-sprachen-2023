@@ -87,9 +87,9 @@ count: false
 - obersorbische Schriftsprache der Gegenwart
     * Vereinheitlichung zweier Traditionslinien
     * katholisches und evangelisches Schrifttum
-- erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
-- 18. Jh.: zwei obersorbische Schriftsprachenvarianten
-    * Mitte des 19.Jh.: Bestrebungen zur Vereinheitlichung (analog Rechtschreibung, Antiqua)
+- erstes gedrucktes obersorbisches Buch 1595: *Wjacław Warichius* „Der kleine Catechismus“
+    * Anfang 18. Jh.: zwei obersorbische Schriftsprachenvarianten
+    * Mitte des 19. Jh.: Bestrebungen zur Vereinheitlichung (analog Rechtschreibung, Antiqua)
 ]
 .fourty[
 <p style="margin-top:-30px">
