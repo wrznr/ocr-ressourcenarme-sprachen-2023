@@ -565,11 +565,11 @@ count: false
 - zu wenige Beispiele für große Fonts und für spezifische Zeichen
 - Wandel historischer Schreibweisen
     * z.B. am Übergang von Überpunkt zu Akut; Druckschwäche? 
-      ![](https://i.imgur.com/I1lloVk.png =400x)
+      ![](https://i.imgur.com/I1lloVk.png =350x)
     * Absicht?
-      ![](https://i.imgur.com/uH5DbMC.png =200x)
+      ![](https://i.imgur.com/uH5DbMC.png =150x)
     * beschränkter Drucksatz?
-      ![](https://i.imgur.com/1Y3o6Ig.png =200x)
+      ![](https://i.imgur.com/1Y3o6Ig.png =150x)
 
 ---
 
@@ -809,7 +809,7 @@ count: false
 .cols[
 .fifty[
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
-    * kombiniert maschinelles Lernen und Heuristiken
+    * kombiniert **maschinelles Lernen** und **Heuristiken**
     * trainierbar, frei verfügbare Basismodelle
     * Erkennung von:
         + Seitenrändern
@@ -831,7 +831,7 @@ count: false
 .cols[
 .fifty[
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
-    * kombiniert maschinelles Lernen und Heuristiken
+    * kombiniert **maschinelles Lernen** und **Heuristiken**
     * trainierbar, frei verfügbare Basismodelle
     * Erkennung von:
         + Seitenrändern
@@ -856,7 +856,7 @@ count: false
 .cols[
 .fifty[
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
-    * kombiniert maschinelles Lernen und Heuristiken
+    * kombiniert **maschinelles Lernen** und **Heuristiken**
     * trainierbar, frei verfügbare Basismodelle
     * Erkennung von:
         + Seitenrändern
@@ -881,7 +881,7 @@ count: false
 .cols[
 .fifty[
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
-    * kombiniert maschinelles Lernen und Heuristiken
+    * kombiniert **maschinelles Lernen** und **Heuristiken**
     * trainierbar, frei verfügbare Basismodelle
     * Erkennung von:
         + Seitenrändern
@@ -907,7 +907,7 @@ count: false
 .cols[
 .fifty[
 - [quelloffenes](https://github.com/qurator-spk/eynollah) Werkzeug (cf. [Rezanezhad 2023](https://doi.org/10.1145/3604951.3605513))
-    * kombiniert maschinelles Lernen und Heuristiken
+    * kombiniert **maschinelles Lernen** und **Heuristiken**
     * trainierbar, frei verfügbare Basismodelle
     * Erkennung von:
         + Seitenrändern
@@ -930,6 +930,39 @@ count: false
 
 .cols[
 .fifty[
+- viele verfügbare OCR-Engines
+- [`Tesseract`](https://github.com/tesseract-ocr/tesseract)
+    + ursprünglich von Hewlett-Packard entwickelt
+    + von Google übernommen und Open-Source gestellt
+    + viele **mitgelieferte Modelle** (auch für „kleinere“ Sprachen)
+    + ab Version 4 Umstieg auf zeilenorientierte Erkennung auf Basis neuronaler Netze
+- [`OCRopus`](https://github.com/tmbdev/ocropy)
+    + entwickelt von Thomas Breul mit Unterstützung von Google
+    + ursprünglich als Wrapper für Tesseract, später mit eigener Erkennungsroutine auf Basis neuronaler Netze
+    + nur **wenige mitgelieferte Modelle**
+    + weitere „Inkarnationen“
+        * [`kraken`](http://kraken.re/)
+        * [`Calamari`](https://github.com/Calamari-OCR/calamari)
+]
+.fourty[
+<p style="margin-top:-30px">
+<img src="img/ocr.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
+# Texterkennung
+
+.cols[
+.fifty[
+- Prozesse zur **Vereinigung** verschiedener OCR-Ergebnisse **in einen Volltext**
+    + Fehler auch bei „optimaler“ Vorverarbeitung und Verwendung spezifischer Modelle
+    + **unterschiedliche Engines** bzw. Modelle haben **unterschiedliche Stärken** und machen unterschiedliche Fehler
+- Idee: **Extraktion** korrekt erkannter Textbestandteile **aus mehreren OCR-Durchgängen** ([Handley 1998](https://www.researchgate.net/profile/John_Handley/publication/3776858_Improving_OCR_accuracy_through_combination_a_survey/links/0deec51e9c21900ab4000000/Improving-OCR-accuracy-through-combination-a-survey.pdf))
+- **Selbsteinschätzung** als Entscheidungskriterium
+- Integration vorhandener OCR ebenfalls möglich!
 ]
 .fourty[
 <p style="margin-top:-30px">
