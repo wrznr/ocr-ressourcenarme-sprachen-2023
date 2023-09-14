@@ -185,7 +185,7 @@ zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
 
 ---
 
-# Beispiel: Serbske Nowiny 1878 (überwiegend Fraktur)
+# Beispiel: Serbske Nowiny 1878 (Fraktur)
 
 <table>
    <tr>
@@ -203,7 +203,7 @@ zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
 
 count: false
 
-# Beispiel: Serbske Nowiny 1878 (überwiegend Fraktur)
+# Beispiel: Serbske Nowiny 1878 (Fraktur)
 
 <table>
    <tr>
