@@ -145,7 +145,7 @@ count: false
 
 
 <center>
-![](https://i.imgur.com/wcWyYml.jpg =600x)
+<img src="https://i.imgur.com/wcWyYml.jpg" width="600px"/>
 </center>
 
 <div style="font-size:8pt">
@@ -185,7 +185,25 @@ zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
 
 ---
 
-# Ein Beispiel: Serbske Nowiny 23.3.1878 <br/>(überwiegend Fraktur)
+# Beispiel: Serbske Nowiny 1878 (überwiegend Fraktur)
+
+<table>
+   <tr>
+        <td>        
+<img src="https://i.imgur.com/jPcGYZz.png" width="400px"/>
+        </td>
+        <td>
+<img src="https://i.imgur.com/ZTrMzQ3.png" width="600px"/>
+        </td>
+    </tr>
+</table>
+
+
+---
+
+count: false
+
+# Beispiel: Serbske Nowiny 1878 (überwiegend Fraktur)
 
 <table>
    <tr>
@@ -760,6 +778,29 @@ count: false
 ---
 
 # Erstellung Bilddigitalisate
+
+.cols[
+.fifty[
+<img src="img/scan.jpeg" height="400px" />
+]
+.fifty[
+]
+]
+
+---
+
+count: false
+
+# Erstellung Bilddigitalisate
+
+.cols[
+.fifty[
+<img src="img/scan.jpeg" height="400px" />
+]
+.fifty[
+<img src="img/nd1967.jpg" height="500px" />
+]
+]
 
 ---
 
