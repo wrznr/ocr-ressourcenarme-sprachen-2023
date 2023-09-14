@@ -1029,7 +1029,7 @@ count: false
         * Anschluss verloren?
     + IT-Firmen (Google CloudVision, Amazon Textract, MS Azure)
         * Fokus **Textspotting**
-        * hohe Varianzrbustheit
+        * hohe Varianzrobustheit
     + Transkribus
         * ursprünglich aus der Wissenschaft
         * Fokus Handschriftenerkennung
