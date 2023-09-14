@@ -62,9 +62,9 @@ count: false
 ---
 
 # Hintergründe zum Obersorbischen
-[Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
 .cols[
 .fifty[
+[Obersorbisch - hornjoserbšćina](https://www.sorabicon.de/hsb/kulturlexikon/artikel/prov_gs5_2lv_23b/)
 - westslawische Sprache
     * Sorbisch = Niedersorbisch und Obersorbisch
     * 20000–25000 Sprecherinnen und Sprecher in der Oberlausitz
@@ -88,8 +88,8 @@ count: false
     * Vereinheitlichung zweier Traditionslinien
     * katholisches und evangelisches Schrifttum
 - erstes gedrucktes obersorbisches Buch 1595: Wjacław Warichius: „Der kleine Catechismus“
-- zu Beginn des 18. Jh. zwei obersorbische Schriftsprachenvarianten
-- seit Mitte des 19.Jh. Bestrebungen zur Vereinheitlichung (analoge Rechtschreibung, Antiqua)
+- 18. Jh.: zwei obersorbische Schriftsprachenvarianten
+    * Mitte des 19.Jh.: Bestrebungen zur Vereinheitlichung (analog Rechtschreibung, Antiqua)
 ]
 .fourty[
 <p style="margin-top:-30px">
@@ -142,19 +142,25 @@ count: false
 ---
 
 # Sorbische Druckzeichen Antiqua/Fraktur
-![](https://i.imgur.com/wcWyYml.jpg =700x)
 
+
+<center>
+![](https://i.imgur.com/wcWyYml.jpg =600x)
+</center>
+
+<div style="font-size:8pt">
 *Jan Arnošt Smoler: Mały Sserb aby Serske a Njemske Rosmłowenja atd. = Wendisch-Deutsche Gespräche nebst einem wendisch-deutschen und deutsch-wendischen Wörterbuche, sowie einem Verzeichnisse von Ortsnamen, einer Darlegung der Aussprache und Orthographie und Zugabe der gebräuchlichen Eidesnormen, Bautzen 1841*
-<!-- .element: style="font-size: 20px" -->
+</div>
 
 ---
 
 # Wo noch? – Fraktur und Antiqua Tschechisch
 ![](https://i.imgur.com/wpZz2ky.png)
 
+<div style="font-size:8pt">
 *Alphabete orientalischer und occidentalischer Sprachen,  
 zsgest. von Friedrich Ballhorn, 8., verb. Aufl., Leipzig 1859*
-<!-- .element: style="font-size: 20px" -->
+</div>
 
 ---
 
